@@ -74,7 +74,7 @@ Raw Package Data → GNN (Relationships) → LSTM (Time Patterns) → Sentiment 
 
 ## The System Architecture
 
-Built over 15 days of intensive development, CassandraSec represents a complete predictive security platform:
+It represents a complete predictive security platform:
 
 ### Core Components
 
