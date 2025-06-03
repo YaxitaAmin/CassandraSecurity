@@ -19,7 +19,7 @@ These weren't isolated incidents. They were the predictable culmination of patte
 
 ---
 
-## The "Aha!" Moment
+## Sparking Moment
 
 It was 3 AM on a Tuesday night, debugging yet another supply chain incident. As I scrolled through the attack details, something clicked:
 
