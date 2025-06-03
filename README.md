@@ -114,7 +114,7 @@ streamlit run dashboard.py
 
 ## Copyright and Terms
 
-**© 2025 [Your Name]. All Rights Reserved.**
+**© 2025 [YAXITA AMIN]. All Rights Reserved.**
 
 This research work represents original development by [Your Name]. Available on GitHub for research and educational purposes only.
 
@@ -122,7 +122,7 @@ This research work represents original development by [Your Name]. Available on 
 
 **Prohibited:** Commercial deployment, modification without acknowledgment, proprietary incorporation, competitive reverse engineering.
 
-**Citation:** "CassandraSec: Predictive Dependency Security System. © 2025 [Yaxita Amin]. [[GitHub Repository URL](https://github.com/YaxitaAmin/CassandraSecurity)]"
+**Citation:** "CassandraSec: Predictive Dependency Security System. © 2025 [Yaxita Amin]. [(https://github.com/YaxitaAmin/CassandraSecurity)]"
 
 **Contact:** [yaxita@umd.edu] for licensing, collaboration, or research inquiries.
 
