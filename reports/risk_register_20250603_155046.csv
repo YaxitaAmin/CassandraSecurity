@@ -1,4 +1,3 @@
-Package_Name,Version,Risk_Score,Risk_Level,Impact_Score,Confidence,Primary_Concerns,Recommendation,Date_Assessed,Status,Owner,Target_Resolution_Date,Notes
-vulnerable-pkg-1,latest,0.85,HIGH,0.0,0.17073170731707318,Poor maintainer responsiveness; Stale package - no recent updates; History of security vulnerabilities; Multiple past vulnerabilities; Single maintainer dependency,CRITICAL: Immediate replacement required. Consider alternative packages or vendor solutions.,2025-06-03,Open,,,
-risky-lib-2,latest,0.65,MEDIUM,0.0,0.17073170731707318,History of security vulnerabilities; Very new package - limited track record,MEDIUM PRIORITY: Review within 90 days. Consider alternatives and monitor closely.,2025-06-03,Open,,,
-safe-package-3,latest,0.25,LOW,0.0,0.17073170731707318,Very new package - limited track record,ACCEPTABLE: Package shows low risk indicators. Continue standard monitoring.,2025-06-03,Open,,,
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f499ea61c349afba6d5f5f1ad949104e46d2271f8c754ac98bd0bd6587acac7
+size 918
