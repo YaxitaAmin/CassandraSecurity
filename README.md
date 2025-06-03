@@ -7,12 +7,11 @@
 ---
 
 ## The Problem We Solved
+Issues piled up, commits became sporadic, and community questions went unanswered. Yet somehow, no one connected the dots—until it was too late.
 
-It was 3 AM on a Tuesday night when the realization hit. While debugging yet another supply chain attack, I noticed something crucial: this package had shown warning signs for months. The maintainer had stopped responding to issues, commits became sporadic, and the community was asking unanswered questions. Yet no one saw the pattern until it was too late.
+Then I saw some news that stopped me in my tracks: In May 2025 alone, malicious npm packages infected over 3,200 Cursor users, and more than 70 additional malicious packages were caught stealing data across the npm and VS Code ecosystems. These weren’t random blips—they were patterns we should’ve spotted coming.
 
-This observation sparked a fundamental question: What if we could predict software supply chain attacks before they happen?
-
-In May 2025 alone, malicious npm packages infected over 3,200 Cursor users, while 70+ additional malicious packages were discovered stealing data across npm and VS Code ecosystems. These weren't isolated incidents—they were predictable patterns we should have seen coming.
+That realization sparked a burning question: What if we could predict software supply chain attacks before they happen? 
 
 ## Our Solution: Predictive Security
 
