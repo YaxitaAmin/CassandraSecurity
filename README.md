@@ -6,14 +6,14 @@
 
 ---
 
-## The Problem We Solved
+## The Problem I Solved
 Issues piled up, commits became sporadic, and community questions went unanswered. Yet somehow, no one connected the dots—until it was too late.
 
 Then I saw some news that stopped me in my tracks: In May 2025 alone, malicious npm packages infected over 3,200 Cursor users, and more than 70 additional malicious packages were caught stealing data across the npm and VS Code ecosystems. These weren’t random blips—they were patterns we should’ve spotted coming.
 
 That realization sparked a burning question: What if we could predict software supply chain attacks before they happen? 
 
-## Our Solution: Predictive Security
+## Solution: Predictive Security (REACTIVE NOPE | PREDICTIVE YES)
 
 CassandraSec represents the world's first predictive dependency security system. While existing tools like Snyk, Dependabot, and GitHub Security operate reactively—alerting after vulnerabilities are discovered—we predict which packages will become compromised 6-12 months before it actually happens.
 
