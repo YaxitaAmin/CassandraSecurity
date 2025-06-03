@@ -29,7 +29,7 @@ These three systems work together in an ensemble architecture: Raw Package Data 
 
 ## The Research Journey
 
-Over 15 intensive days, I analyzed 2,825 packages across npm and PyPI ecosystems, engineering 41 features across five critical categories:
+Over few intensive days, I analyzed 2,825 packages across npm and PyPI ecosystems, engineering 41 features across five critical categories:
 
 - **Maintainer Health** (12 features): Commit frequency degradation, response time trends, communication sentiment
 - **Community Signals** (9 features): Contributor diversity, issue resolution rates, engagement patterns  
