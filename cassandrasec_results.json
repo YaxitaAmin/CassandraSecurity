@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-06-03T15:05:40.048677",
+  "model_performance": {
+    "test_auc": 0.727648202137998,
+    "high_risk_precision": 0.8666666666666667
+  },
+  "risk_distribution": {
+    "high_risk": 60,
+    "medium_risk": 505,
+    "low_risk": 0
+  },
+  "summary": {
+    "total_packages_analyzed": 565,
+    "high_risk_packages": 60,
+    "model_confidence": 0.727648202137998
+  }
+}

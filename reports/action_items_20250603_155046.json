@@ -1,0 +1,23 @@
+{
+  "immediate_actions": [
+    {
+      "priority": "CRITICAL",
+      "package": "vulnerable-pkg-1",
+      "action": "Replace vulnerable-pkg-1",
+      "reason": "Poor maintainer responsiveness",
+      "timeline": "Within 7 days",
+      "risk_score": 0.85
+    }
+  ],
+  "short_term_actions": [],
+  "medium_term_actions": [
+    {
+      "priority": "MEDIUM",
+      "package": "risky-lib-2",
+      "action": "Monitor risky-lib-2 closely",
+      "reason": "History of security vulnerabilities",
+      "timeline": "Within 90 days",
+      "risk_score": 0.65
+    }
+  ]
+}

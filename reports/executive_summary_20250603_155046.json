@@ -1,0 +1,43 @@
+{
+  "report_summary": {
+    "scan_date": "2025-06-03T15:50:46.599033",
+    "total_packages_analyzed": 3,
+    "model_accuracy": "72.8%",
+    "overall_risk_score": "0.58"
+  },
+  "key_findings": {
+    "critical_risk_packages": 1,
+    "high_business_impact_risks": 0,
+    "packages_requiring_immediate_action": 1,
+    "packages_requiring_short_term_action": 0
+  },
+  "risk_distribution": {
+    "critical": 1,
+    "high": 1,
+    "medium": 1,
+    "low": 1
+  },
+  "top_risk_packages": [
+    {
+      "name": "vulnerable-pkg-1",
+      "risk_score": "0.85",
+      "impact_score": "0.00",
+      "primary_concern": "Poor maintainer responsiveness"
+    },
+    {
+      "name": "risky-lib-2",
+      "risk_score": "0.65",
+      "impact_score": "0.00",
+      "primary_concern": "History of security vulnerabilities"
+    },
+    {
+      "name": "safe-package-3",
+      "risk_score": "0.25",
+      "impact_score": "0.00",
+      "primary_concern": "Very new package - limited track record"
+    }
+  ],
+  "recommended_immediate_actions": [
+    "Replace vulnerable-pkg-1 - Poor maintainer responsiveness"
+  ]
+}

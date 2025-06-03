@@ -1,0 +1,61 @@
+2025-06-03 14:03:36,129 - ERROR - Database file 'cassandra_data.db' not found.
+2025-06-03 14:50:14,417 - INFO - Collecting TRAINING data (2020-2022) for CassandraSec ML model
+2025-06-03 14:50:14,423 - INFO - Found 2778 existing packages
+2025-06-03 14:50:14,424 - INFO - Found 0 existing historical CVEs
+2025-06-03 14:50:14,424 - INFO - Collecting training CVEs from 2020-01-01 to 2020-03-31
+2025-06-03 14:50:15,597 - INFO - Collected 2000 CVEs for period 2020-01-01 to 2020-03-31
+2025-06-03 14:50:21,606 - INFO - Collecting training CVEs from 2020-04-01 to 2020-06-30
+2025-06-03 14:50:22,358 - INFO - Collected 2000 CVEs for period 2020-04-01 to 2020-06-30
+2025-06-03 14:50:28,362 - INFO - Collecting training CVEs from 2020-07-01 to 2020-09-29
+2025-06-03 14:50:29,108 - INFO - Collected 2000 CVEs for period 2020-07-01 to 2020-09-29
+2025-06-03 14:50:35,116 - INFO - Collecting training CVEs from 2020-09-30 to 2020-12-29
+2025-06-03 14:50:35,864 - INFO - Collected 2000 CVEs for period 2020-09-30 to 2020-12-29
+2025-06-03 14:50:41,865 - INFO - Collecting training CVEs from 2020-12-30 to 2021-03-30
+2025-06-03 14:50:42,629 - INFO - Collected 2000 CVEs for period 2020-12-30 to 2021-03-30
+2025-06-03 14:50:48,638 - INFO - Collecting training CVEs from 2021-03-31 to 2021-06-29
+2025-06-03 14:50:49,579 - INFO - Collected 2000 CVEs for period 2021-03-31 to 2021-06-29
+2025-06-03 14:50:55,591 - INFO - Collecting training CVEs from 2021-06-30 to 2021-09-28
+2025-06-03 14:50:56,386 - INFO - Collected 2000 CVEs for period 2021-06-30 to 2021-09-28
+2025-06-03 14:51:02,389 - INFO - Collecting training CVEs from 2021-09-29 to 2021-12-28
+2025-06-03 14:51:03,405 - INFO - Collected 2000 CVEs for period 2021-09-29 to 2021-12-28
+2025-06-03 14:51:09,421 - INFO - Collecting training CVEs from 2021-12-29 to 2022-03-29
+2025-06-03 14:51:10,315 - INFO - Collected 2000 CVEs for period 2021-12-29 to 2022-03-29
+2025-06-03 14:51:16,331 - INFO - Collecting training CVEs from 2022-03-30 to 2022-06-28
+2025-06-03 14:51:17,215 - INFO - Collected 2000 CVEs for period 2022-03-30 to 2022-06-28
+2025-06-03 14:51:23,216 - INFO - Collecting training CVEs from 2022-06-29 to 2022-09-27
+2025-06-03 14:51:23,862 - INFO - Collected 2000 CVEs for period 2022-06-29 to 2022-09-27
+2025-06-03 14:51:29,865 - INFO - Collecting training CVEs from 2022-09-28 to 2022-12-27
+2025-06-03 14:51:30,732 - INFO - Collected 2000 CVEs for period 2022-09-28 to 2022-12-27
+2025-06-03 14:51:36,741 - INFO - Collecting training CVEs from 2022-12-28 to 2022-12-31
+2025-06-03 14:51:37,107 - INFO - Collected 406 CVEs for period 2022-12-28 to 2022-12-31
+2025-06-03 14:51:43,109 - INFO - Total CVEs collected for training: 24406
+2025-06-03 14:51:43,114 - INFO - Requesting 2020 CVEs from CIRCL...
+2025-06-03 14:51:43,630 - INFO - Successfully collected 0 CVEs from CIRCL for 2020
+2025-06-03 14:51:43,631 - INFO - Requesting 2021 CVEs from CIRCL...
+2025-06-03 14:51:43,738 - INFO - Successfully collected 0 CVEs from CIRCL for 2021
+2025-06-03 14:51:43,739 - INFO - Requesting 2022 CVEs from CIRCL...
+2025-06-03 14:51:43,845 - INFO - Successfully collected 0 CVEs from CIRCL for 2022
+2025-06-03 14:51:43,851 - INFO - Found 24406 new training CVEs
+2025-06-03 14:52:31,254 - INFO - Matched 24406 historical CVEs to packages
+2025-06-03 14:52:31,376 - INFO - Stored 24406 historical vulnerabilities
+2025-06-03 14:52:31,376 - INFO - Stored 24406 training vulnerabilities
+2025-06-03 14:52:31,391 - INFO - Collecting VALIDATION data (2023) for CassandraSec model testing
+2025-06-03 14:52:31,394 - INFO - Found 2778 existing packages
+2025-06-03 14:52:31,409 - INFO - Found 24406 existing historical CVEs
+2025-06-03 14:52:31,409 - INFO - Collecting validation CVEs from 2023-01-01 to 2023-04-01
+2025-06-03 14:52:32,166 - INFO - Collected 2000 CVEs for period 2023-01-01 to 2023-04-01
+2025-06-03 14:52:38,176 - INFO - Collecting validation CVEs from 2023-04-02 to 2023-07-01
+2025-06-03 14:52:38,819 - INFO - Collected 2000 CVEs for period 2023-04-02 to 2023-07-01
+2025-06-03 14:52:44,833 - INFO - Collecting validation CVEs from 2023-07-02 to 2023-09-30
+2025-06-03 14:52:45,463 - INFO - Collected 2000 CVEs for period 2023-07-02 to 2023-09-30
+2025-06-03 14:52:51,475 - INFO - Collecting validation CVEs from 2023-10-01 to 2023-12-30
+2025-06-03 14:52:52,109 - INFO - Collected 2000 CVEs for period 2023-10-01 to 2023-12-30
+2025-06-03 14:52:58,122 - INFO - Collecting validation CVEs from 2023-12-31 to 2023-12-31
+2025-06-03 14:52:58,385 - INFO - Collected 36 CVEs for period 2023-12-31 to 2023-12-31
+2025-06-03 14:53:04,386 - INFO - Total CVEs collected for validation: 8036
+2025-06-03 14:53:04,387 - INFO - Requesting 2023 CVEs from CIRCL...
+2025-06-03 14:53:04,713 - INFO - Successfully collected 0 CVEs from CIRCL for 2023
+2025-06-03 14:53:04,718 - INFO - Found 8036 new validation CVEs
+2025-06-03 14:53:21,022 - INFO - Matched 8036 historical CVEs to packages
+2025-06-03 14:53:21,077 - INFO - Stored 8036 historical vulnerabilities
+2025-06-03 14:53:21,077 - INFO - Stored 8036 validation vulnerabilities
