@@ -14,6 +14,7 @@ Then I saw some news that stopped me in my tracks: In May 2025 alone, malicious 
 That realization sparked a burning question: What if we could predict software supply chain attacks before they happen? 
 
 ## Solution: Predictive Security (REACTIVE NOPE | PREDICTIVE YES)
+https://cassandrasecurity.streamlit.app/
 
 CassandraSec represents the world's first predictive dependency security system. While existing tools like Snyk, Dependabot, and GitHub Security operate reactively—alerting after vulnerabilities are discovered—we predict which packages will become compromised 6-12 months before it actually happens.
 
