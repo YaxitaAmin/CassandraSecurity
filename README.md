@@ -1,12 +1,6 @@
 # CassandraSec: Predictive Dependency Security System
 
-**Copyright © 2025 [Yaxita Amin]. All Rights Reserved.**
-
-*This work is protected by copyright law. Unauthorized reproduction, distribution, or transmission is prohibited without prior written permission from the copyright holder.*
-
----
-
-## The Problem I Solved
+## The Problem
 Issues piled up, commits became sporadic, and community questions went unanswered. Yet somehow, no one connected the dots—until it was too late.
 
 Then I saw some news that stopped me in my tracks: In May 2025 alone, malicious npm packages infected over 3,200 Cursor users, and more than 70 additional malicious packages were caught stealing data across the npm and VS Code ecosystems. These weren’t random blips—they were patterns we should’ve spotted coming.
