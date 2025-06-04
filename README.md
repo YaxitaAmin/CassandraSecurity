@@ -15,6 +15,7 @@ That realization sparked a burning question: What if we could predict software s
 
 ## Solution: Predictive Security (REACTIVE NOPE | PREDICTIVE YES)
 https://cassandrasecurity.streamlit.app/
+![image](https://github.com/user-attachments/assets/eabe9e77-eec6-4056-8c46-564bb13eac22)
 
 CassandraSec represents the world's first predictive dependency security system. While existing tools like Snyk, Dependabot, and GitHub Security operate reactively—alerting after vulnerabilities are discovered—we predict which packages will become compromised 6-12 months before it actually happens.
 
