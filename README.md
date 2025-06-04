@@ -118,7 +118,7 @@ streamlit run dashboard.py
 
 **© 2025 [YAXITA AMIN]. All Rights Reserved.**
 
-This research work represents original development by [Your Name]. Available on GitHub for research and educational purposes only.
+This research work represents original development by @Yaxita Amin. Available on GitHub for research and educational purposes only.
 
 **Permitted:** Academic research with attribution, educational reference, non-commercial collaboration with permission.
 
