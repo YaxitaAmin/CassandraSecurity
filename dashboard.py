@@ -129,7 +129,7 @@ class RiskDashboard:
         """Render dashboard header."""
         st.markdown("""
         <div class="main-header">
-            <h1>🔮 CassandraSec Risk Assessment Dashboard</h1>
+            <h1>CassandraSec Risk Assessment Dashboard</h1>
             <p>Real-time Dependency Risk Monitoring & Prediction</p>
         </div>
         """, unsafe_allow_html=True)
@@ -139,7 +139,7 @@ class RiskDashboard:
         st.sidebar.title("Dashboard Controls")
         
         # Data refresh
-        if st.sidebar.button("🔄 Refresh Data", type="primary"):
+        if st.sidebar.button("Refresh Data", type="primary"):
             st.cache_data.clear()
             st.rerun()
         
@@ -286,7 +286,7 @@ class RiskDashboard:
         if len(critical_packages) > 0:
             st.markdown("""
             <div class="alert-critical">
-                <h4>⚠️ Critical Risk Packages Requiring Immediate Action</h4>
+                <h4>Critical Risk Packages Requiring Immediate Action</h4>
             </div>
             """, unsafe_allow_html=True)
             
@@ -298,11 +298,11 @@ class RiskDashboard:
                     st.write(f"Risk: **{pkg['composite_risk_score']:.3f}**")
                 with col3:
                     if pkg['days_since_update'] > 180:
-                        st.write("🔴 Stale package")
+                        st.write("Stale package")
                     elif pkg['total_historical_vulns'] > 2:
-                        st.write("🔴 Multiple vulnerabilities")
+                        st.write("Multiple vulnerabilities")
                     else:
-                        st.write("🔴 High risk indicators")
+                        st.write("High risk indicators")
 
     def render_risk_distribution(self, df: pd.DataFrame):
         """Render risk distribution charts."""
@@ -343,7 +343,7 @@ class RiskDashboard:
 
     def render_top_risks_analysis(self, df: pd.DataFrame):
         """Render top risks analysis."""
-        st.subheader("🎯 Top Risk Packages Analysis")
+        st.subheader("Top Risk Packages Analysis")
         
         top_risks = df.nlargest(20, 'composite_risk_score')
         
@@ -363,7 +363,7 @@ class RiskDashboard:
 
     def render_risk_factors_analysis(self, df: pd.DataFrame):
         """Render risk factors correlation analysis."""
-        st.subheader("🔍 Risk Factors Analysis")
+        st.subheader("Risk Factors Analysis")
         
         col1, col2 = st.columns(2)
         
@@ -413,7 +413,7 @@ class RiskDashboard:
 
     def render_ecosystem_analysis(self, df: pd.DataFrame):
         """Render ecosystem-specific analysis."""
-        st.subheader("🌐 Ecosystem Analysis")
+        st.subheader("Ecosystem Analysis")
         
         # Create ecosystem labels
         df_eco = df.copy()
@@ -446,7 +446,7 @@ class RiskDashboard:
 
     def render_detailed_package_table(self, df: pd.DataFrame):
         """Render detailed package information table."""
-        st.subheader("📋 Detailed Package Information")
+        st.subheader("Detailed Package Information")
         
         # Sort by risk score
         df_display = df.sort_values('composite_risk_score', ascending=False)
@@ -487,12 +487,12 @@ class RiskDashboard:
 
     def render_export_options(self, df: pd.DataFrame):
         """Render export options."""
-        st.subheader("📤 Export Options")
+        st.subheader("Export Options")
         
         col1, col2, col3 = st.columns(3)
         
         with col1:
-            if st.button("📊 Export Risk Summary"):
+            if st.button("Export Risk Summary"):
                 summary = {
                     'total_packages': len(df),
                     'high_risk_count': len(df[df['composite_risk_score'] >= 0.7]),
@@ -508,7 +508,7 @@ class RiskDashboard:
                 )
         
         with col2:
-            if st.button("📋 Export Risk Register"):
+            if st.button("Export Risk Register"):
                 csv_data = df[['package_name', 'version', 'composite_risk_score']].to_csv(index=False)
                 st.download_button(
                     label="Download CSV",
@@ -518,7 +518,7 @@ class RiskDashboard:
                 )
         
         with col3:
-            if st.button("🔴 Export Critical Packages"):
+            if st.button("Export Critical Packages"):
                 critical_df = df[df['composite_risk_score'] >= 0.8]
                 if len(critical_df) > 0:
                     critical_data = critical_df[['package_name', 'version', 'composite_risk_score']].to_csv(index=False)
