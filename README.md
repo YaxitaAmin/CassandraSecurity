@@ -85,7 +85,7 @@ The question is no longer whether we can predict security incidents—CassandraS
 
 **Quick Start:**
 ```bash
-git clone https://github.com/yourusername/cassandrasec.git
+git clone https://github.com/YaxitaAmin/cassandrasec.git
 cd cassandrasec
 python -m venv cassandraenv
 source cassandraenv/bin/activate
